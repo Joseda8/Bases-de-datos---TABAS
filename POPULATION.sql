@@ -7,3 +7,4 @@ INSERT INTO ROLE (role) VALUES('Security');
 INSERT INTO ROLE (role) VALUES('Control tower');
 INSERT INTO ROLE (role) VALUES('Flight Attendant');
 INSERT INTO ROLE (role) VALUES('Packager');
+INSERT INTO ROLE (role) VALUES('Customer');
