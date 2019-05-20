@@ -7,25 +7,19 @@ CREATE TABLE SUITCASE (
 	suitcase_id SERIAL PRIMARY KEY,
 	weight FLOAT NOT NULL,
 	color_id INTEGER REFERENCES COLOR(color_id),
-	cost MONEY NOT NULL
-);
-
-CREATE TABLE USER_SUITCASE (
-	user_id INTEGER,
-	suitcase_id INTEGER	REFERENCES SUITCASE(suitcase_id) UNIQUE,
-	PRIMARY KEY(user_id, suitcase_id)
+	user_id INTEGER	NOT NULL
 );
 
 CREATE TABLE SUITCASE_CHECK (
 	suitcase_id INTEGER REFERENCES SUITCASE(suitcase_id),
 	user_id INTEGER,
-	status VARCHAR(10),
+	status VARCHAR(10) NOT NULL,
 	PRIMARY KEY(suitcase_id, user_id)
 );
 
 CREATE TABLE AIRPLANE(
 	plane_id SERIAL PRIMARY KEY,
-	model VARCHAR(10)
+	model VARCHAR(10) NOT NULL
 );
 
 CREATE TABLE AIRPLANE_SECTION(
