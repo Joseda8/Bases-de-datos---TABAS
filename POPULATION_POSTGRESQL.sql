@@ -26,7 +26,7 @@ INSERT INTO BAGCART_BRAND (brand) VALUES ('TLD JET-16');
 INSERT INTO BAGCART_BRAND (brand) VALUES ('TLD JST-20');
 INSERT INTO BAGCART_BRAND (brand) VALUES ('TLD JST-25');
 
-INSERT INTO BAGCART (brand_id, year, seal) VALUES (1, 2010, 'FALSE');
-INSERT INTO BAGCART (brand_id, year, seal) VALUES (1, 2012, 'FALSE');
-INSERT INTO BAGCART (brand_id, year, seal) VALUES (2, 2003, 'FALSE');
-INSERT INTO BAGCART (brand_id, year, seal) VALUES (3, 2014, 'FALSE');
+INSERT INTO BAGCART (brand_id, year, seal, capacity) VALUES (1, 2010, 'FALSE', 100);
+INSERT INTO BAGCART (brand_id, year, seal, capacity) VALUES (1, 2012, 'FALSE', 150);
+INSERT INTO BAGCART (brand_id, year, seal, capacity) VALUES (2, 2003, 'FALSE', 150);
+INSERT INTO BAGCART (brand_id, year, seal, capacity) VALUES (3, 2014, 'FALSE', 100);
