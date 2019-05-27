@@ -12,7 +12,7 @@ CREATE TABLE SUITCASE (
 
 CREATE TABLE SUITCASE_CHECK (
 	suitcase_id INTEGER REFERENCES SUITCASE(suitcase_id),
-	user_id INTEGER,
+	user_id INTEGER NOT NULL,
 	status VARCHAR(30) NOT NULL,
 	commment VARCHAR(100) NOT NULL,
 	PRIMARY KEY(suitcase_id, user_id)
@@ -51,6 +51,7 @@ CREATE TABLE BAGCART_TO_FLIGHT(
 	flight_id INTEGER REFERENCES FLIGHT(flight_id),
 	bagcart_id INTEGER REFERENCES BAGCART(bagcart_id),
 	seal VARCHAR(10) NOT NULL,
+	user_id INTEGER NOT NULL,
 	PRIMARY KEY(flight_id, bagcart_id)
 );
 
