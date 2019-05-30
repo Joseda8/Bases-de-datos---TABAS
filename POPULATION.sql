@@ -1,13 +1,7 @@
 INSERT INTO ROLE (role) VALUES('Flight dispatcher');
 INSERT INTO ROLE (role) VALUES('Administrative ');
 INSERT INTO ROLE (role) VALUES('Scanner');
-INSERT INTO ROLE (role) VALUES('Counter Agent');
-INSERT INTO ROLE (role) VALUES('Drug control');
-INSERT INTO ROLE (role) VALUES('Security');
-INSERT INTO ROLE (role) VALUES('Control tower');
-INSERT INTO ROLE (role) VALUES('Flight Attendant');
-INSERT INTO ROLE (role) VALUES('Packager');
-INSERT INTO ROLE (role) VALUES('Customer');
+INSERT INTO ROLE (role) VALUES('Receptionist');
 
 INSERT INTO USER (full_name, phone_number, email, username, password) 
 VALUES ('José', '88888888', 'jd.m@gmail.com', 'Dookie', 'xxx');
@@ -70,4 +64,23 @@ INSERT INTO USER (full_name, phone_number, email, username, password)
 VALUES ('Eve Butt', '35620583', 'eve.but@gmail.com', 'Baia', 'xxx');
 
 INSERT INTO USER_ROLE (role_id, user_id) VALUES (1, 1);
-INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 1);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 2);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (3, 3);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (4, 4);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (1, 5);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 6);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (3, 7);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (4, 8);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (1, 9);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 10);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (3, 11);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (4, 12);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (1, 13);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 14);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (3, 15);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (4, 16);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (1, 17);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 18);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (3, 19);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (4, 20);
+
