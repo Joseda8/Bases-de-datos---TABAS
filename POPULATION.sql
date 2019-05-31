@@ -1,3 +1,4 @@
+INSERT INTO ROLE (role) VALUES('Not assigned');
 INSERT INTO ROLE (role) VALUES('Flight dispatcher');
 INSERT INTO ROLE (role) VALUES('Administrative ');
 INSERT INTO ROLE (role) VALUES('Scanner');
