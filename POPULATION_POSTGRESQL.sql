@@ -8,6 +8,7 @@ INSERT INTO AIRPLANE (model) VALUES ('B737');
 INSERT INTO AIRPLANE (model) VALUES ('A320');
 INSERT INTO AIRPLANE (model) VALUES ('A319');
 
+INSERT INTO COLOR (color_name) VALUES ('Not define');
 INSERT INTO COLOR (color_name) VALUES ('Red');
 INSERT INTO COLOR (color_name) VALUES ('Blue');
 INSERT INTO COLOR (color_name) VALUES ('Yellow');
