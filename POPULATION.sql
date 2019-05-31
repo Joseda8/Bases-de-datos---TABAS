@@ -3,8 +3,8 @@ INSERT INTO ROLE (role) VALUES('Administrative ');
 INSERT INTO ROLE (role) VALUES('Scanner');
 INSERT INTO ROLE (role) VALUES('Receptionist');
 
-INSERT INTO [USER] (user_id, full_name, phone_number, email, username, password) 
-VALUES (0, 'Automatic Administrator', '22909090', 'tabas@gmail.com', 'A_admin', 'xxx');
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Automatic Administrator', '22909090', 'tabas@gmail.com', 'A_admin', 'xxx');
 
 INSERT INTO [USER] (full_name, phone_number, email, username, password) 
 VALUES ('José', '88888888', 'jd.m@gmail.com', 'Dookie', 'xxx');
