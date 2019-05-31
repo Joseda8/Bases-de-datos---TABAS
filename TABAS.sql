@@ -25,7 +25,7 @@ CREATE TABLE AIRPLANE(
 );
 
 CREATE TABLE AIRPLANE_SECTION(
-	section_id SERIAL UNIQUE,
+	section_id INTEGER NOT NULL,
 	weight FLOAT NOT NULL,
 	plane_id INTEGER REFERENCES AIRPLANE(plane_id),
 	PRIMARY KEY(section_id, plane_id)
