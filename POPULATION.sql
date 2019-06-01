@@ -3,6 +3,7 @@ INSERT INTO ROLE (role) VALUES('Flight dispatcher');
 INSERT INTO ROLE (role) VALUES('Administrative ');
 INSERT INTO ROLE (role) VALUES('Scanner');
 INSERT INTO ROLE (role) VALUES('Receptionist');
+INSERT INTO ROLE (role) VALUES('Customer');
 
 INSERT INTO [USER] (full_name, phone_number, email, username, password) 
 VALUES ('Automatic Administrator', '22909090', 'tabas@gmail.com', 'A_admin', 'xxx');
@@ -67,6 +68,37 @@ VALUES ('Montell Winters', '16359057', 'mont.w@gmail.com', 'Pls_Rain_Not', 'xxx'
 INSERT INTO [USER] (full_name, phone_number, email, username, password) 
 VALUES ('Eve Butt', '35620583', 'eve.but@gmail.com', 'Baia', 'xxx');
 
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Evalyn Choi', '75955118', 'eva.choi@gmail.com', 'EvalynLol', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Clarke Couch', '10591093', 'clarke.c@gmail.com', 'HelloThere', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Calum Mcintosh', '29577849', 'cal.mc@gmail.com', 'AppleCereal', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Tiffany Coffey', '81460330', 'tif.cof@gmail.com', 'Coffee', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Camron Dillard', '84450838', 'cam.dil@gmail.com', 'AndTommy', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Zaki Denton', '40615968', 'zak.dent@gmail.com', 'Zucaritas', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Honor Moran', '40608907', 'hon.mon@gmail.com', 'MedalOfMoran', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Kaila Barron', '95456937', 'kai.bar@gmail.com', 'Usuarrio', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Jade Booker', '01452671', 'jade.book@gmail.com', 'FaceBooker', 'xxx');
+
+INSERT INTO [USER] (full_name, phone_number, email, username, password) 
+VALUES ('Cade Allan', '30452694', 'cad.all@gmail.com', 'Allan_Allan!', 'xxx');
+
 INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 1);
 INSERT INTO USER_ROLE (role_id, user_id) VALUES (3, 2);
 INSERT INTO USER_ROLE (role_id, user_id) VALUES (4, 3);
@@ -87,4 +119,16 @@ INSERT INTO USER_ROLE (role_id, user_id) VALUES (2, 17);
 INSERT INTO USER_ROLE (role_id, user_id) VALUES (3, 18);
 INSERT INTO USER_ROLE (role_id, user_id) VALUES (4, 19);
 INSERT INTO USER_ROLE (role_id, user_id) VALUES (5, 20);
+
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 21);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 22);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 23);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 24);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 25);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 26);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 27);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 28);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 29);
+INSERT INTO USER_ROLE (role_id, user_id) VALUES (6, 30);
+
 
