@@ -15,7 +15,7 @@ CREATE TABLE SUITCASE_CHECK (
 	suitcase_id INTEGER REFERENCES SUITCASE(suitcase_id),
 	user_id INTEGER NOT NULL,
 	status VARCHAR(30) NOT NULL,
-	commment VARCHAR(100) NOT NULL,
+	comment VARCHAR(100) NOT NULL,
 	PRIMARY KEY(suitcase_id, user_id)
 );
 
